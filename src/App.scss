@@ -1,0 +1,31 @@
+.nav {
+  margin: 25px auto;
+
+  &-link {
+    padding: 10px;
+    border-radius: 2px;
+    margin-right: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: black;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #567bff;
+      border-color: #567bff;
+      color: #fff;
+      box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+    }
+
+    &-logout {
+      color: red;
+      display: inline-block;
+      padding: 10px;
+
+      &:hover {
+        color: red;
+      }
+    }
+  }
+}

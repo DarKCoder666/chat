@@ -1,0 +1,22 @@
+.chatbox {
+  &-messages {
+    list-style: none;
+    padding: 15px 0;
+    min-width: 40%;
+  }
+
+  &-message {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+
+    &.my-message {
+      background-color: #567bff;
+      border-color: #567bff;
+      color: #fff;
+    }
+  }
+}
